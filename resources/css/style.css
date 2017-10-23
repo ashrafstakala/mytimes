@@ -26,10 +26,34 @@ header {
 .column.small {
   width: 240px;
 }
+.column {
+  margin: 32px;
+}
 .main-content-container {
   display: flex;
   padding-top: 10px;
 }
 div {
   border: 1px solid;
+}
+.main-story
+.image-content {
+  background-image: url(../images/mainstory.png);
+}
+.image-content {
+  display: flex;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.fall.image-content {
+  background-image: url(../images/fall.png);
+}
+.camera.image-content {
+  background-image: url(../images/camera.png);
+}
+.cat.image-content {
+  background-image: url(../images/cat.png);
 }
