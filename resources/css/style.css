@@ -15,3 +15,21 @@ header {
 .logo span {
   color: MediumAquamarine;
 }
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+.main-content-container {
+  display: flex;
+  padding-top: 10px;
+}
+div {
+  border: 1px solid;
+}
