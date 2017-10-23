@@ -5,6 +5,14 @@ header {
   font-size: 14px;
   font-weight: bold;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  z-index: 1;
+  background-color: white;
+}
+header nav {
+  padding-right: 40px;
 }
 .logo {
   display: flex;
@@ -14,6 +22,11 @@ header {
 }
 .logo span {
   color: MediumAquamarine;
+}
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right:12px;
 }
 .column.large {
   width: 630px;
@@ -28,10 +41,14 @@ header {
 }
 .column {
   margin: 32px;
+  display: flex;
+  flex-direction: column;
 }
 .main-content-container {
   display: flex;
-  padding-top: 10px;
+  padding-top: 116px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
 }
 div {
   border: 1px solid;
@@ -39,6 +56,7 @@ div {
 .main-story
 .image-content {
   background-image: url(../images/mainstory.png);
+  font-size: 40px;
 }
 .image-content {
   display: flex;
