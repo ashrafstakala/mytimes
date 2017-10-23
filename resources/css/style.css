@@ -40,9 +40,9 @@ header nav {
   width: 240px;
 }
 .column {
-  margin: 32px;
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 .main-content-container {
   display: flex;
@@ -51,7 +51,7 @@ header nav {
   margin: 0 auto 78px auto;
 }
 div {
-  border: 1px solid;
+
 }
 .main-story
 .image-content {
@@ -65,13 +65,43 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+  margin-top: 15px;
 }
 .fall.image-content {
   background-image: url(../images/fall.png);
+  display: flex;
 }
 .camera.image-content {
   background-image: url(../images/camera.png);
+  display: flex;
 }
 .cat.image-content {
   background-image: url(../images/cat.png);
+}
+.stories .text-content {
+  height: 250px;
+}
+.blurb {
+  margin-top: 16px;
+}
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+a {
+  color: black;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+body {
+  margin: 0;
 }
